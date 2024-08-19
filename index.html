@@ -5,14 +5,15 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="color-picker">
-    <input type="color" id="colorPicker">
-    <div class="color-info">
-      <p>HEX: <span id="hexInput"></span></p>
-      <p>RGB: <span id="rgbaInput"></span></p>
-      <p>HSL: <span id="hslInput"></span></p>
+    <div class="preview"></div>
+    <div class="color-picker">
+        <input type="color" id="colorPicker">
+        <div class="color-info">
+            <p>HEX: <span id="hexInput"></span></p>
+            <p>RGB: <span id="rgbaInput"></span></p>
+            <p>HSL: <span id="hslInput"></span></p>
+        </div>
     </div>
-  </div>
 
   <button onclick="generateComplementaryPalette()">Palette complémentaire</button>
   <button onclick="savePalette()">Sauvegarder</button>
